@@ -1,0 +1,14 @@
+{
+  "name": "traning",
+  "version": "1.0.0",
+  "description": "alexa skill ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ktanaha",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-sdk": "^1.0.25"
+  }
+}

@@ -1,0 +1,139 @@
+{
+    "languageModel": {
+        "invocationName": "はしろぐ",
+        "intents": [
+            {
+                "name": "AMAZON.CancelIntent",
+                "slots": [],
+                "samples": []
+            },
+            {
+                "name": "AMAZON.HelpIntent",
+                "slots": [],
+                "samples": []
+            },
+            {
+                "name": "AMAZON.NoIntent",
+                "slots": [],
+                "samples": [
+                    "ダメでした",
+                    "ダメだった",
+                    "やりませんでした",
+                    "やらなかった",
+                    "走らなかった",
+                    "走りませんでした",
+                    "達成できませんでした",
+                    "達成できなかった",
+                    "できませんでした",
+                    "できなかった"
+                ]
+            },
+            {
+                "name": "AMAZON.StopIntent",
+                "slots": [],
+                "samples": [
+                    "終了",
+                    "取りやめ"
+                ]
+            },
+            {
+                "name": "AMAZON.YesIntent",
+                "slots": [],
+                "samples": [
+                    "達成できました",
+                    "できました",
+                    "達成できた",
+                    "できた"
+                ]
+            },
+            {
+                "name": "DistanceIntent",
+                "slots": [
+                    {
+                        "name": "Distance",
+                        "type": "AMAZON.NUMBER"
+                    }
+                ],
+                "samples": [
+                    "{Distance} キロメートル走ります",
+                    "{Distance} キロ走ります",
+                    "目標距離は {Distance} キロメートル",
+                    "目標距離は {Distance} キロ",
+                    "目標は {Distance} キロメートル",
+                    "目標は {Distance} キロ",
+                    "{Distance} キロ",
+                    "{Distance} キロメートル"
+                ]
+            },
+            {
+                "name": "DurationIntent",
+                "slots": [
+                    {
+                        "name": "Duration",
+                        "type": "AMAZON.DURATION"
+                    }
+                ],
+                "samples": [
+                    "{Duration} を目標タイムにします",
+                    "{Duration} を目標時間にします",
+                    "{Duration} を目標にします",
+                    "{Duration} を目指します",
+                    "目標タイムは {Duration}",
+                    "目標時間は {Duration}",
+                    "目標は {Duration}",
+                    "{Duration}",
+                    "{Duration} にします"
+                ]
+            },
+            {
+                "name": "GoalIntent",
+                "slots": [],
+                "samples": [
+                    "結果",
+                    "達成",
+                    "ゴール",
+                    "終わった",
+                    "完了",
+                    "走り終わった",
+                    "走り終えた",
+                    "振り返り",
+                    "反省",
+                    "目標"
+                ]
+            },
+            {
+                "name": "NoActionIntent",
+                "slots": [],
+                "samples": [
+                    "まだ",
+                    "まだです",
+                    "まだやってない",
+                    "まだやっていない",
+                    "走っていません",
+                    "まだ走ってません",
+                    "走ってません",
+                    "走れていません",
+                    "やってない",
+                    "まだやっていません"
+                ]
+            },
+            {
+                "name": "StartIntent",
+                "slots": [],
+                "samples": [
+                    "始めて",
+                    "スタートして",
+                    "開始して",
+                    "目標立てて",
+                    "記録して",
+                    "スタート",
+                    "開始",
+                    "始め",
+                    "記録",
+                    "目標"
+                ]
+            }
+        ],
+        "types": []
+    }
+}
